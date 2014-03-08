@@ -1,4 +1,6 @@
-# A sample Gemfile
 source "https://rubygems.org"
 
-# gem "rails"
+gem :development, :test do
+  gem "jazz_hands"
+end
+
