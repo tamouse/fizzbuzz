@@ -3,7 +3,7 @@
 # Run initial setup and deactivate self.
 #
 
-set -e
+set -ev # fail fast, verbose
 
 bundle install
 sed -i.bak '/Gemfile.lock/s/^/# /' .gitignore
