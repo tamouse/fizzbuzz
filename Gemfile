@@ -1,6 +1,9 @@
 source "https://rubygems.org"
 
-gem :development, :test do
+group :development, :test do
   gem "jazz_hands"
+  gem "guard"
+  gem "guard-rspec"
+  gem "guard-bundler"
 end
 
