@@ -7,7 +7,7 @@ guard :bundler do
   # watch(/^.+\.gemspec/)
 end
 
-guard :rspec do
+guard :rspec, :cmd => "bundle exec rspec" do
   watch(%r{^spec/.+_spec\.rb$})
 
   # The assumption made here is that your spec directory reflects
