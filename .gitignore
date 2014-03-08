@@ -4,5 +4,5 @@ tmp/*
 *.bak
 
 # do not want it in this skeleton, but you'll probably want it in your project
-Gemfile.lock
+# Gemfile.lock
 
